@@ -6,7 +6,7 @@
     <title>Empresa que vende tapas.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/app.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Belleza|Cedarville+Cursive|Niconne|Sancreek" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Belleza|Cedarville+Cursive|Niconne|Sancreek|Alegreya+SC:700i,900i|David+Libre:700|Gentium+Book+Basic:700i|Katibeh|Merriweather:900i|Oleo+Script|Paprika|Racing+Sans+One|Shrikhand" rel="stylesheet"/>
   </head>
   <!--La funcion cargar_mapa() es indispensable-->
   <body>
@@ -55,92 +55,116 @@
           </p>
         </div>
         <div class="row">
-          <div class="small-12 large-4 column"><img class="vectoriales" src="./img/fe.svg" alt="material-plástico-fe"/></div>
-          <div class="small-12 large-4 column"><img class="vectoriales" src="./img/pap.svg" alt="material-plástico-fe"/></div>
-          <div class="small-12 large-4 column"><img class="vectoriales" src="./img/pvc.svg" alt="material-plástico-fe"/></div>
+          <div class="small-12 medium-4 large-4 column"><img class="vectoriales" src="./img/fe.svg" alt="material-plástico-fe"/></div>
+          <div class="small-12 medium-4 large-4 column"><img class="vectoriales" src="./img/pap.svg" alt="material-plástico-fe"/></div>
+          <div class="small-12 medium-4 large-4 column"><img class="vectoriales" src="./img/pvc.svg" alt="material-plástico-fe"/></div>
         </div>
       </section>
       <section id="tab-Clientes"> <span class="row cursiva align-center">Clientes.</span>
-        <div class="row clientes align-center">
-          <div class="small-12 large-6 column">
-            <div class="row small-12"><i class=" oferta fa fa-check-square" aria-hidden="true">
-                <p class="oferta">AMPLIA EXPERIENCIA.</p></i></div>
-            <div class="row small-12"><i class="oferta fa fa-money" aria-hidden="true">
-                <p class="oferta">PRECIOS COMPETITIVOS.</p></i></div>
-            <div class="row small-12"><i class="oferta fa fa-paper-plane" aria-hidden="true">
-                <p class="oferta">ENVIOS A LA REPÚBLICA.</p></i></div>
-            <div class="row small-12"><i class="oferta fa fa-map-marker" aria-hidden="true">
-                <p class="oferta">3 SUCURSALES.</p></i></div>
+        <div id="diapo">
+          <div>
+            <input class="r_check" type="radio" id="check_1" name="check" checked="checked"/>
+            <label class="on_check" for="check_1"><img class="vignette" src="img/tapagua.jpg" alt="tapas1"/></label><img class="big_image" src="img/tapagua.jpg" alt="tapas1"/>
           </div>
-          <div small="small-12 large-6 column">
-            <div class="row small-12"><img class="presidente" src="./img/presidente.jpg"/></div>
-            <div class="row small-12 align-center">
-              <p class="oferta">Cabrera López: Presidente de Visa.</p>
-            </div>
+          <div>
+            <input class="r_check" type="radio" id="check_2" name="check"/>
+            <label class="on_check" for="check_2"><img class="vignette" src="img/tapcolor.jpg" alt="tapas2"/></label><img class="big_image" src="img/tapcolor.jpg" alt="tapas2"/>
+          </div>
+          <div>
+            <input class="r_check" type="radio" id="check_3" name="check"/>
+            <label class="on_check" for="check_3"><img class="vignette" src="img/taphand.jpg" alt="tapas2"/></label><img class="big_image" src="img/taphand.jpg" alt="tapas2"/>
+          </div>
+          <div>
+            <input class="r_check" type="radio" id="check_4" name="check"/>
+            <label class="on_check" for="check_4"><img class="vignette" src="img/tapmuchas.jpg" alt="tapas2"/></label><img class="big_image" src="img/tapmuchas.jpg" alt="tapas2"/>
           </div>
         </div>
       </section>
-      <section id="tab-Productos"> <span class="row align-center cursiva klanimate" data-x="-100">Productos</span>
-        <div class="row"><small class="small-6 large-3 column">
-            <div class="card customix klanimate" data-x="100"><img src="./img/tap5.jpg"/>
+      <section id="tab-Productos"> <span class="row align-center cursiva klanimated" data-x="-100">Productos</span>
+        <div class="row"><small class="small-12 medium-6 large-3 column">
+            <div class="card card-1 customix">
+              <!--img(src=`./img/sock.jpg`)-->
+              <div style="background-color: #F44336; widht:100%; height: 200px;"></div>
               <div class="card-section">
-                <h4>This is a card.</h4>
-                <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                <div class="row align-center"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <h4 class="tituloCartita">VIEW UPDATES.</h4>
+                <!--div(class="row align-center")//-button(class="hollow button hb small-6 columns" href="#") Más.
+                -->
               </div>
-            </div></small><small class="small-6 large-3 column">
-            <div class="card customix klanimate" data-y="100"><img src="./img/tap6.jpg"/>
+            </div></small><small class="small-12 medium-6 large-3 column">
+            <div class="card card-1 customix">
+              <!--img(src=`./img/sock.jpg`)-->
+              <div style="background-color: #E91E63; widht:100%; height: 200px;"></div>
               <div class="card-section">
-                <h4>This is a card.</h4>
-                <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                <div class="row align-center"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <h4 class="tituloCartita">VIEW UPDATES.</h4>
+                <!--div(class="row align-center")//-button(class="hollow button hb small-6 columns" href="#") Más.
+                -->
               </div>
-            </div></small><small class="small-6 large-3 column">
-            <div class="card customix klanimate" data-x="100"><img src="./img/tap7.jpg"/>
+            </div></small><small class="small-12 medium-6 large-3 column">
+            <div class="card card-1 customix">
+              <!--img(src=`./img/sock.jpg`)-->
+              <div style="background-color: #673AB7; widht:100%; height: 200px;"></div>
               <div class="card-section">
-                <h4>This is a card.</h4>
-                <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                <div class="row align-center"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <h4 class="tituloCartita">VIEW UPDATES.</h4>
+                <!--div(class="row align-center")//-button(class="hollow button hb small-6 columns" href="#") Más.
+                -->
               </div>
-            </div></small><small class="small-6 large-3 column">
-            <div class="card customix klanimate" data-y="-100"><img src="./img/tap8.jpg"/>
+            </div></small><small class="small-12 medium-6 large-3 column">
+            <div class="card card-1 customix">
+              <!--img(src=`./img/sock.jpg`)-->
+              <div style="background-color: #3F51B5; widht:100%; height: 200px;"></div>
               <div class="card-section">
-                <h4>This is a card.</h4>
-                <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                <div class="row align-center"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <h4 class="tituloCartita">VIEW UPDATES.</h4>
+                <!--div(class="row align-center")//-button(class="hollow button hb small-6 columns" href="#") Más.
+                -->
               </div>
-            </div></small><small class="small-6 large-3 column">
-            <div class="card customix klanimate" data-x="-100"><img src="./img/tap.jpg"/>
+            </div></small><small class="small-12 medium-6 large-3 column">
+            <div class="card card-1 customix">
+              <!--img(src=`./img/sock.jpg`)-->
+              <div style="background-color: #2196F3; widht:100%; height: 200px;"></div>
               <div class="card-section">
-                <h4>This is a card.</h4>
-                <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                <div class="row align-center"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <h4 class="tituloCartita">VIEW UPDATES.</h4>
+                <!--div(class="row align-center")//-button(class="hollow button hb small-6 columns" href="#") Más.
+                -->
               </div>
-            </div></small><small class="small-6 large-3 column">
-            <div class="card customix klanimate" data-x="100"><img src="./img/tap2.jpg"/>
+            </div></small><small class="small-12 medium-6 large-3 column">
+            <div class="card card-1 customix">
+              <!--img(src=`./img/sock.jpg`)-->
+              <div style="background-color: #FF80AB; widht:100%; height: 200px;"></div>
               <div class="card-section">
-                <h4>This is a card.</h4>
-                <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                <div class="row align-center"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <h4 class="tituloCartita">VIEW UPDATES.</h4>
+                <!--div(class="row align-center")//-button(class="hollow button hb small-6 columns" href="#") Más.
+                -->
               </div>
-            </div></small><small class="small-6 large-3 column">
-            <div class="card customix klanimate" data-y="100"><img src="./img/tap3.jpg"/>
+            </div></small><small class="small-12 medium-6 large-3 column">
+            <div class="card card-1 customix">
+              <!--img(src=`./img/sock.jpg`)-->
+              <div style="background-color: #03A9F4; widht:100%; height: 200px;"></div>
               <div class="card-section">
-                <h4>This is a card.</h4>
-                <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                <div class="row align-center"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <h4 class="tituloCartita">VIEW UPDATES.</h4>
+                <!--div(class="row align-center")//-button(class="hollow button hb small-6 columns" href="#") Más.
+                -->
               </div>
-            </div></small><small class="small-6 large-3 column">
-            <div class="card customix klanimate" data-x="-100"><img src="./img/tap4.jpg"/>
+            </div></small><small class="small-12 medium-6 large-3 column">
+            <div class="card card-1 customix">
+              <!--img(src=`./img/sock.jpg`)-->
+              <div style="background-color: #009688; widht:100%; height: 200px;"></div>
               <div class="card-section">
-                <h4>This is a card.</h4>
-                <p>It has an easy to override visual style, and is appropriately subdued.</p>
-                <div class="row align-center"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                <h4 class="tituloCartita">VIEW UPDATES.</h4>
+                <!--div(class="row align-center")//-button(class="hollow button hb small-6 columns" href="#") Más.
+                -->
               </div>
             </div></small>
         </div>
         <div class="row align-center">
-          <button class="hollow button hb1 small-12 medium-6 large-3 columns klanimate" data-x="100" href="#">Más.</button>
+          <button class="hollow button hb1 small-12 medium-6 large-3 columns" href="#">Más.</button>
         </div>
       </section>
       <section id="tab-Contacto"> <span class="cursiva row align-center">Contactanos</span>
@@ -175,19 +199,21 @@
                   Venustiano Carranza c.p. 15600
                   Ciudad de México.
                 </p>
+                <!--div(class="item" id="gmap")-->
               </div>
+            </div>
+            <div class="row align-center">
+              <div class="item column large-8 medium-8 small-12" id="gmap">     </div>
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <div class="social">
-        <div class="sociales"><span>Ponte en contacto con nosotros.</span></div>
-        <div class="so">
-          <div class="sociales1"><i class="fa fa-facebook-official icono" aria-hidden="true"></i><i class="fa fa-twitter icono" aria-hidden="true"></i><i class="fa fa-linkedin-square icono" aria-hidden="true"></i><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
-        </div>
-        <div class="copiright"><i class="fa fa-copyright" aria-hidden="true"><span>__By Cesar Chávez & McB0y.</span></i></div>
+      <div class="containerFoot">
+        <div class="row align-center"><span>Ponte en contacto con nosotros.</span></div>
+        <div class="row align-center">  <i class="fa fa-whatsapp" aria-hidden="true"><span class="watsNumber">(55) 55555555</span></i></div>
+        <div class="row align-center"><i class="fa fa-copyright separa" aria-hidden="true"><span>Rafael Cisneros.</span></i></div>
       </div>
     </footer>
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -196,13 +222,13 @@
     <script src="https://use.fontawesome.com/f9b0ff375d.js"></script>
     <script src="js/app.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/static/js/greensock.js"></script>
+    <script src="./js/static/js/kl-animate.min.js"></script>
+       <script>
+         $.klAnimate();
+      </script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.-->
     <script> window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date; ga('create','UA-XXXXX-Y','auto');ga('send','pageview')</script>
     <script src="https://www.google-analytics.com/analytics.js" async="async" defer="defer"></script>
-    <script src="./js/static/js/greensock.js"></script>
-    <script src="./js/static/js/kl-animate.min.js"></script>
-    <script type="text/javascript">
-       $.klAnimate();
-    </script>
-</body>
+  </body>
 </html>
